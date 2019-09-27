@@ -7,8 +7,7 @@ func main() {
 		fmt.Println(i, " - ", string(i), " - ", []byte(string(i)))
 	}
 	foo := "a"
-	fmt.Println(foo)
-	fmt.Printf("%T \n", foo)
+	fmt.Printf("%v, %T \n", foo, foo)
 }
 
 /*

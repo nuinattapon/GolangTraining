@@ -12,6 +12,7 @@ func main() {
 	}
 
 	for i := 1; i < 70; i++ {
+		fmt.Print(i, " - ")
 		if i%2 == 1 {
 			fmt.Println("Odd")
 		} else {
